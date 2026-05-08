@@ -11,7 +11,7 @@ st.set_page_config(
 def carregar_dados():
     return pd.read_csv("micexemplo.csv")
 
-st.title("Página de Custos")
+st.title("💰 Página de Custos")
 
 st.write("Nesta página, você pode analisar os custos associados a cada equipamento e filtrar as manutenções pelo seu status atual.")
 

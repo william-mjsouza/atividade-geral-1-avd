@@ -12,7 +12,7 @@ st.set_page_config(
 def carregar_dados():
     return pd.read_csv("micexemplo.csv")
 
-st.title("Página de Técnicos")
+st.title("🧑‍🔧 Página de Técnicos")
 
 
 st.write("Acompanhe o volume de manutenções realizadas por cada técnico da equipe e visualize os custos atrelados aos atendimentos.")
